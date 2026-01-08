@@ -4,7 +4,7 @@
 
 import axios from 'axios'
 
-const axiosServices = axios.create({ baseURL: process.env.REACT_APP_API_URL || 'http://localhost:3010/' })
+const axiosServices = axios.create({ baseURL: process.env.NEXT_PUBLIC_API_SERVER || 'http://localhost:3010/' })
 
 // interceptor for http
 axiosServices.interceptors.response.use(
