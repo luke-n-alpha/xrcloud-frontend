@@ -87,7 +87,7 @@ function MyApp({ Component, pageProps }: AppProps & Props) {
                                     >
                                         <Script
                                             strategy="afterInteractive"
-                                            src={`https://www.googletagmanager.com/gtag/js?id=G-EG0QKXX746`}
+                                            src={`https://www.googletagmanager.com/gtag/js?id=G-DP4PR6RTE2`}
                                         />
                                         {/* Global Site Tag (gtag.js) - Google Analytics */}
                                         <Script
@@ -97,7 +97,7 @@ function MyApp({ Component, pageProps }: AppProps & Props) {
                                                 __html: `window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', 'G-EG0QKXX746');
+                        gtag('config', 'G-DP4PR6RTE2');
                         `
                                             }}
                                         />

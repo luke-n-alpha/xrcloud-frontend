@@ -31,7 +31,7 @@ export default function Document() {
                     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
                     rel="stylesheet"
                 />
-                <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-EG0QKXX746`} />
+                <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-DP4PR6RTE2`} />
                 {/* Global Site Tag (gtag.js) - Google Analytics */}
                 <Script
                     id="gtag-init"
@@ -40,7 +40,7 @@ export default function Document() {
                         __html: `window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', 'G-EG0QKXX746');
+                        gtag('config', 'G-DP4PR6RTE2');
                         `
                     }}
                 />
